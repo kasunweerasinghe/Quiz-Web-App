@@ -63,7 +63,7 @@ ul>li>label{
 
 /*styles for submit button*/
 button{
-    background-color: #03cae4;
+    background-color: #184bcc;
     color: #fff;
     border: none;
     display: block;
@@ -76,7 +76,7 @@ button{
 
 /*add hover for submit button*/
 button:hover{
-    background-color: #04adc4;
+    background-color: #7899b6;
 }
 
 /*select answer and press button change color to green*/
