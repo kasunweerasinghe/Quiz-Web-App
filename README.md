@@ -7,13 +7,13 @@
 ---
 
 Start Interface
-![Start!](assets/img/1.png)
+![Start!](assets/img/start.png)
 
 When Select Answer
-![When Select Answer!](assets/img/2.png)
+![When Select Answer!](assets/img/select.png)
 
 Result. when press Reload start Again
-![Result. when press Reload start Again!](assets/img/3.png)
+![Result. when press Reload start Again!](assets/img/result.png)
 
 
 # languages
