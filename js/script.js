@@ -1,48 +1,48 @@
 //question array
 const quizData = [
     {
-        question: "1. What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
-        correct: "b",
-    },
-
-    {
-        question: "2. What does CSS stand for?",
-        a: "Central Style Sheets",
-        b: "Cascading Style Sheets",
-        c: "Cascading Simple Sheets",
-        d: "Cars SUVs Sailboats",
-        correct: "b",
-    },
-
-    {
-        question: "3. What does HTML stand for?",
-        a: "Hypertext Markup Language",
-        b: "Hypertext Markdown Language",
-        c: "Hyperloop Machine Language",
-        d: "Helicopters Terminals Motorboats Lamborginis",
+        question: "1. What is the best way to apply bold styling to text??",
+        a: "<strong>",
+        b: "Use CSS.",
+        c: "<bold>",
+        d: "<b>",
         correct: "a",
     },
 
     {
-        question: "4. Which language runs in a web browser?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "javascript",
+        question: "2. When is the <link> tag used?",
+        a: "when linking style sheets, JavaScript, and icons for mobile apps",
+        b: "when linking style sheets, favicons, and preloading assets",
+        c: "when linking one webpage to another",
+        d: "when linking style sheets, external URLs, and favicons",
+        correct: "b",
+    },
+
+    {
+        question: "3. How do you confirm that a document is written in HTML5??",
+        a: "The server wraps the webpage in an HTML5 wrapper.",
+        b: "Use the <!DOCTYPE html> declaration that starts the document.",
+        c: "The browser receives encoding from the server to display the document with HTML5.",
+        d: "It is enclosed in a <html> tag.",
+        correct: "b",
+    },
+
+    {
+        question: "4. What does the <label> element do??",
+        a: "It labels webpages with important information.",
+        b: "It creates an ID for a corresponding input element.",
+        c: "It overrides the name attribute's value on a child input element.",
+        d: "It programmatically associates a text label with an interface element.",
         correct: "d",
     },
 
     {
-        question: "5. The web is based on?",
-        a: "Images",
-        b: "Text",
-        c: "Information",
-        d: "HTML",
-        correct: "d",
+        question: "5. To get a link to open in a new window or tab, use the _ attribute?",
+        a: "_blank",
+        b: "_self",
+        c: "_parent",
+        d: "_new",
+        correct: "a",
     },
 
     {
