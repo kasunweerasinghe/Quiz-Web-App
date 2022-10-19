@@ -90,6 +90,51 @@ const quizData = [
         correct: "a",
     },
 
+    {
+        question: "11. Which statement is the correct way to create a variable called rate and assign it the value 100?",
+        a: "let rate = 100;",
+        b: "let 100 = rate;",
+        c: "100 = let rate;",
+        d: "rate = 100;",
+        correct: "a",
+    },
+
+    {
+        question: "12. Which statement creates a new object using the Person constructor? Which statement creates a new Person object called student?",
+        a: "var student = new Person();",
+        b: "var student = construct Person;",
+        c: "var student = Person();",
+        d: "var student = construct Person();",
+        correct: "a",
+    },
+
+    {
+        question: "13. Which Object method returns an iterable that can be used to iterate over the properties of an object?",
+        a: "Object.get()",
+        b: "Object.loop()",
+        c: "Object.each()",
+        d: "Object.keys()",
+        correct: "d",
+    },
+
+    {
+        question: "14. Which of the following is not a keyword in JavaScript?",
+        a: "this",
+        b: "catch",
+        c: "array",
+        d: "function",
+        correct: "c",
+    },
+
+    {
+        question: "15. Which choice is an incorrect way to define an arrow function that returns an empty object?",
+        a: "=> ({})",
+        b: "=> {}",
+        c: "=> { return {};}",
+        d: "=> (({}))",
+        correct: "b",
+    },
+
 
 ];
 
