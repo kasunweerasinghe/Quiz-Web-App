@@ -1,4 +1,4 @@
-
+//question array
 const quizData = [
     {
         question: "1. What year was JavaScript launched?",
@@ -120,11 +120,12 @@ function loadAllQuiz() {
     d_text.innerText = currentQuizData.d
 }
 
+//deselect answers
 function deselectAnswers() {
     answerEls.forEach(answerEl => answerEl.checked = false)
 }
 
-
+//get select answers
 function getSelected() {
     let answer;
     answerEls.forEach(answerEl => {
@@ -135,6 +136,7 @@ function getSelected() {
     return answer;
 }
 
+//Submit btn listner
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
     if (answer) {
