@@ -15,5 +15,26 @@ const quizData = [
         c: 'Cascading Simple Sheets',
         d: 'Cars SUVs Sailboats',
         correct: 'b'
+    },
+
+    {
+        question:'What does HTML stand for?',
+        a: 'Hypertext Markup Language',
+        b: 'Hypertext Markdown Language',
+        c: 'Hyperloop Machine Language',
+        d: 'Helicopter Terminals Motorboats Lamborghinis',
+        correct: 'a'
+    },
+
+    {
+        question:'What year Java Script launched?',
+        a: '1996',
+        b: '1995',
+        c: '1994',
+        d: 'None of above',
+        correct: 'b'
     }
-]
+
+
+];
+
