@@ -46,30 +46,30 @@ const quizData = [
     },
 
     {
-        question: "6. Choose the correct HTML tag for the largest heading?",
-        a: "<heading>",
-        b: "<h6>",
-        c: "<head>",
-        d: "<h1>",
-        correct: "d",
-    },
-
-    {
-        question: "7. What is the correct HTML tag for inserting a line break??",
-        a: "<br>",
-        b: "<lb>",
-        c: "<break>",
-        d: "<h1>",
+        question: "6. What is the line-height property primarily used for?",
+        a: "to control the height of the space between two lines of content",
+        b: "to control the height of the space between heading elements",
+        c: "to control the height of the character size",
+        d: "to control the width of the space between characters",
         correct: "a",
     },
 
     {
-        question: "8. Choose the correct HTML tag for the largest heading???",
-        a: "<H6>",
-        b: "<H2>",
-        c: "<H1>",
-        d: "<h5>",
-        correct: "c",
+        question: "7. What is not true about class selectors?",
+        a: "Only one class value can be assigned to an element.",
+        b: "An element can have multiple class value.",
+        c: "Class selectors are marked with a leading period.",
+        d: "More than one element can have the same class value.",
+        correct: "a",
+    },
+
+    {
+        question: "8. When using position: fixed, what will the element always be positioned relative to?",
+        a: "the closest element with position: relative",
+        b: "the viewport",
+        c: "the parent element",
+        d: "the wrapper element",
+        correct: "b",
     },
 
     {
@@ -82,11 +82,11 @@ const quizData = [
     },
 
     {
-        question: "10. How can you make a numbered list?????",
-        a: "<ol>",
-        b: "<ul>",
-        c: "<dl>",
-        d: "<list>",
+        question: "10. How would you make the first letter of every paragraph on the page red?",
+        a: "p::first-letter { color: red; }",
+        b: "p:first-letter { color: red; }",
+        c: "first-letter::p { color: red; }",
+        d: "first-letter:p { color: red; }",
         correct: "a",
     },
 
