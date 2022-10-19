@@ -1,7 +1,7 @@
 
 const quizData = [
     {
-        question: "What year was JavaScript launched?",
+        question: "1. What year was JavaScript launched?",
         a: "1996",
         b: "1995",
         c: "1994",
@@ -10,7 +10,7 @@ const quizData = [
     },
 
     {
-        question: "What does CSS stand for?",
+        question: "2. What does CSS stand for?",
         a: "Central Style Sheets",
         b: "Cascading Style Sheets",
         c: "Cascading Simple Sheets",
@@ -19,7 +19,7 @@ const quizData = [
     },
 
     {
-        question: "What does HTML stand for?",
+        question: "3. What does HTML stand for?",
         a: "Hypertext Markup Language",
         b: "Hypertext Markdown Language",
         c: "Hyperloop Machine Language",
@@ -28,13 +28,67 @@ const quizData = [
     },
 
     {
-        question: "Which language runs in a web browser?",
+        question: "4. Which language runs in a web browser?",
         a: "Java",
         b: "C",
         c: "Python",
         d: "javascript",
         correct: "d",
-    }
+    },
+
+    {
+        question: "5. The web is based on?",
+        a: "Images",
+        b: "Text",
+        c: "Information",
+        d: "HTML",
+        correct: "d",
+    },
+
+    {
+        question: "6. Choose the correct HTML tag for the largest heading?",
+        a: "<heading>",
+        b: "<h6>",
+        c: "<head>",
+        d: "<h1>",
+        correct: "d",
+    },
+
+    {
+        question: "7. What is the correct HTML tag for inserting a line break??",
+        a: "<br>",
+        b: "<lb>",
+        c: "<break>",
+        d: "<h1>",
+        correct: "a",
+    },
+
+    {
+        question: "8. Choose the correct HTML tag for the largest heading???",
+        a: "<H6>",
+        b: "<H2>",
+        c: "<H1>",
+        d: "<h5>",
+        correct: "c",
+    },
+
+    {
+        question: "9. What does FTP stand for????",
+        a: "Files To Put online",
+        b: "File Transfer Protocol",
+        c: "File Transfer Please",
+        d: "none of above",
+        correct: "b",
+    },
+
+    {
+        question: "10. How can you make a numbered list?????",
+        a: "<ol>",
+        b: "<ul>",
+        c: "<dl>",
+        d: "<list>",
+        correct: "a",
+    },
 
 
 ];
@@ -51,10 +105,10 @@ const submitBtn = document.getElementById('submit');
 
 let currentQuiz = 0;
 let score = 0;
-loadQuiz();
+loadAllQuiz();
 
 //load all quiz
-function loadQuiz() {
+function loadAllQuiz() {
     deselectAnswers();
 
     const currentQuizData = quizData[currentQuiz];
@@ -89,7 +143,7 @@ submitBtn.addEventListener('click', () => {
         }
         currentQuiz++
         if (currentQuiz < quizData.length) {
-            loadQuiz()
+            loadAllQuiz()
         } else {
             quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly</h2> <button onclick="location.reload()">Reload</button>`
         }
