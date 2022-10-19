@@ -12,10 +12,42 @@ created by kasunrachintha on 10/19/22
     <meta charset="UTF-8">
     <meta content="width=device-width initial-scale=1  user-scalable=no" name="viewport">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
+
+
+<div class="quiz-container" id="quiz">
+    <div class="quiz-header">
+        <h2 id="question">Question Text</h2>
+
+        <!--added questions list-->
+        <ul>
+            <li>
+                <input class="answer" id="a" name="answer" type="radio">
+                <label for="a" id="a_text">Answer</label>
+            </li>
+
+            <li>
+                <input class="answer" id="b" name="answer" type="radio">
+                <label for="b" id="b_text">Answer</label>
+            </li>
+
+            <li>
+                <input class="answer" id="c" name="answer" type="radio">
+                <label for="c" id="c_text">Answer</label>
+            </li>
+
+            <li>
+                <input class="answer" id="d" name="answer" type="radio">
+                <label for="d" id="d_text">Answer</label>
+            </li>
+        </ul>
+
+    </div>
+    <button id="submit">Submit</button>
+</div>
 
 
 <script src="js/script.js"></script>
