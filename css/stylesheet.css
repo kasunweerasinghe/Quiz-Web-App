@@ -76,3 +76,9 @@ button{
 button:hover{
     background-color: #04adc4;
 }
+
+/*select answer and press button change color to green*/
+button:focus{
+    outline: none;
+    background-color: #44b927;
+}
